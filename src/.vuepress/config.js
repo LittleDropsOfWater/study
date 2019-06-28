@@ -68,7 +68,8 @@ module.exports = {
             items: [
               { text: "async", link: "/zh/miscellaneous/async.md" },
               { text: "cssModule", link: "/zh/miscellaneous/cssModule.md" },
-              { text: "diff算法", link: "/zh/miscellaneous/dom diff.md" },{ text: "虚拟dom", link: "/zh/miscellaneous/dom diff.md" },
+              { text: "diff算法", link: "/zh/miscellaneous/dom diff.md" },
+              { text: "虚拟dom", link: "/zh/miscellaneous/virtual dom.md" },
               { text: "DvaJS框架", link: "/zh/miscellaneous/DvaJs.md" },
               { text: "ES6语法", link: "/zh/miscellaneous/ES6.md" },
               { text: "Generator函数", link: "/zh/miscellaneous/Generator.md" },
@@ -76,7 +77,7 @@ module.exports = {
               { text: "JSX简述", link: "/zh/miscellaneous/JSX.md" },
               { text: "mobx", link: "/zh/miscellaneous/mobx.md" },
               { text: "react", link: "/zh/miscellaneous/react.md" },
-              { text: "函数式编程", link: "/zh/miscellaneous/virtual dom.md" },
+              { text: "函数式编程", link: "/zh/miscellaneous/Functional programming.md" },
             ]
           },
           {

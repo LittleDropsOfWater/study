@@ -119,7 +119,3 @@ function ListOfTenThings() {
 ### 布尔类型,Null以及Undefined将会被忽略
 想渲染需要先将它们转换为字符串.
 falsy值仍然会被渲染.确保 `&&`之前的表达式总为布尔值.
-```JavaScript
-```
-```JavaScript
-```

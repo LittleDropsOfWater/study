@@ -25,13 +25,5 @@ React 将更新该组件实例的 props 以跟最新的元素保持一致，并�
 
 
 图示：
-![diff算法](/study/diff算法.png)
-```JavaScript
+![diff算法](/study/diff algorithm.png)
 
-```
-```JavaScript
-
-```
-```JavaScript
-
-```
