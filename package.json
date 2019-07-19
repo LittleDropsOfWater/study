@@ -27,9 +27,9 @@
   "author": "Evan You",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jasonandjay/study/issues"
+    "url": "https://github.com/LittleDropsOfWater/study"
   },
-  "homepage": "https://jasonandjay.github.io/study/",
+  "homepage": "https://littledropsofwater.github.io/study/",
   "gitHooks": {
     "pre-commit": ""
   },

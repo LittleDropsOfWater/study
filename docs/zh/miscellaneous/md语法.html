@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>一张图片 | 前端知识点总结</title>
+    <meta name="description" content="为什么不问问神奇海螺呢">
+    <link rel="icon" href="/study/logo.png">
+  <link rel="manifest" href="/study/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/study/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/study/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/study/assets/css/styles.148bad0c.css" as="style"><link rel="preload" href="/study/assets/js/app.148bad0c.js" as="script"><link rel="preload" href="/study/assets/js/61.71fb1d4d.js" as="script"><link rel="prefetch" href="/study/assets/css/1.styles.7d5a3227.css"><link rel="prefetch" href="/study/assets/css/2.styles.423c7ee8.css"><link rel="prefetch" href="/study/assets/css/3.styles.678a69c2.css"><link rel="prefetch" href="/study/assets/css/4.styles.fdd82c55.css"><link rel="prefetch" href="/study/assets/css/5.styles.362c00be.css"><link rel="prefetch" href="/study/assets/css/6.styles.a6003f36.css"><link rel="prefetch" href="/study/assets/css/7.styles.fe8d468f.css"><link rel="prefetch" href="/study/assets/js/1.7d5a3227.js"><link rel="prefetch" href="/study/assets/js/10.53cacf2b.js"><link rel="prefetch" href="/study/assets/js/11.fed5ec6d.js"><link rel="prefetch" href="/study/assets/js/12.48817a4d.js"><link rel="prefetch" href="/study/assets/js/13.62f03bd7.js"><link rel="prefetch" href="/study/assets/js/14.c2ea983b.js"><link rel="prefetch" href="/study/assets/js/15.b14c0559.js"><link rel="prefetch" href="/study/assets/js/16.deae45c0.js"><link rel="prefetch" href="/study/assets/js/17.21e19af4.js"><link rel="prefetch" href="/study/assets/js/18.6553ec64.js"><link rel="prefetch" href="/study/assets/js/19.8856faab.js"><link rel="prefetch" href="/study/assets/js/2.423c7ee8.js"><link rel="prefetch" href="/study/assets/js/20.64b6d23f.js"><link rel="prefetch" href="/study/assets/js/21.2126e090.js"><link rel="prefetch" href="/study/assets/js/22.7e96c1fd.js"><link rel="prefetch" href="/study/assets/js/23.56a3dffd.js"><link rel="prefetch" href="/study/assets/js/24.f8b5f314.js"><link rel="prefetch" href="/study/assets/js/25.0b7b2466.js"><link rel="prefetch" href="/study/assets/js/26.1fbee57f.js"><link rel="prefetch" href="/study/assets/js/27.e2fec50a.js"><link rel="prefetch" href="/study/assets/js/28.d5adaa22.js"><link rel="prefetch" href="/study/assets/js/29.fcedf671.js"><link rel="prefetch" href="/study/assets/js/3.678a69c2.js"><link rel="prefetch" href="/study/assets/js/30.0eac8958.js"><link rel="prefetch" href="/study/assets/js/31.7b338ca7.js"><link rel="prefetch" href="/study/assets/js/32.6ad6dce6.js"><link rel="prefetch" href="/study/assets/js/33.0ea39f51.js"><link rel="prefetch" href="/study/assets/js/34.a14e3948.js"><link rel="prefetch" href="/study/assets/js/35.8bf06e95.js"><link rel="prefetch" href="/study/assets/js/36.c5c7174d.js"><link rel="prefetch" href="/study/assets/js/37.062a2691.js"><link rel="prefetch" href="/study/assets/js/38.62477273.js"><link rel="prefetch" href="/study/assets/js/39.a2eee3d3.js"><link rel="prefetch" href="/study/assets/js/4.fdd82c55.js"><link rel="prefetch" href="/study/assets/js/40.0a2b934d.js"><link rel="prefetch" href="/study/assets/js/41.33afd8ef.js"><link rel="prefetch" href="/study/assets/js/42.b87f59b3.js"><link rel="prefetch" href="/study/assets/js/43.eb20129d.js"><link rel="prefetch" href="/study/assets/js/44.eb4cc3ea.js"><link rel="prefetch" href="/study/assets/js/45.cda15e62.js"><link rel="prefetch" href="/study/assets/js/46.685acecd.js"><link rel="prefetch" href="/study/assets/js/47.409bb48f.js"><link rel="prefetch" href="/study/assets/js/48.f210b5c8.js"><link rel="prefetch" href="/study/assets/js/49.386cebe9.js"><link rel="prefetch" href="/study/assets/js/5.362c00be.js"><link rel="prefetch" href="/study/assets/js/50.306fa1ac.js"><link rel="prefetch" href="/study/assets/js/51.8db7611f.js"><link rel="prefetch" href="/study/assets/js/52.c950fa77.js"><link rel="prefetch" href="/study/assets/js/53.63066189.js"><link rel="prefetch" href="/study/assets/js/54.1f502316.js"><link rel="prefetch" href="/study/assets/js/55.4ad463d4.js"><link rel="prefetch" href="/study/assets/js/56.c01472f1.js"><link rel="prefetch" href="/study/assets/js/57.ea85a9d8.js"><link rel="prefetch" href="/study/assets/js/58.8bb7763e.js"><link rel="prefetch" href="/study/assets/js/59.345352b3.js"><link rel="prefetch" href="/study/assets/js/6.a6003f36.js"><link rel="prefetch" href="/study/assets/js/60.0caf99d4.js"><link rel="prefetch" href="/study/assets/js/62.e49c7a31.js"><link rel="prefetch" href="/study/assets/js/63.2b5b6470.js"><link rel="prefetch" href="/study/assets/js/64.43cd07ca.js"><link rel="prefetch" href="/study/assets/js/65.4944f588.js"><link rel="prefetch" href="/study/assets/js/66.3083d3f9.js"><link rel="prefetch" href="/study/assets/js/67.45f88915.js"><link rel="prefetch" href="/study/assets/js/68.e977530e.js"><link rel="prefetch" href="/study/assets/js/69.02ad2a05.js"><link rel="prefetch" href="/study/assets/js/7.fe8d468f.js"><link rel="prefetch" href="/study/assets/js/70.b7350c4a.js"><link rel="prefetch" href="/study/assets/js/71.eac32cd5.js"><link rel="prefetch" href="/study/assets/js/72.f94d141b.js"><link rel="prefetch" href="/study/assets/js/73.d9e167e9.js"><link rel="prefetch" href="/study/assets/js/74.769936d5.js"><link rel="prefetch" href="/study/assets/js/75.986ad3d1.js"><link rel="prefetch" href="/study/assets/js/76.6b5a5063.js"><link rel="prefetch" href="/study/assets/js/77.7f827352.js"><link rel="prefetch" href="/study/assets/js/78.92012f90.js"><link rel="prefetch" href="/study/assets/js/79.fee4eb0b.js"><link rel="prefetch" href="/study/assets/js/8.279bf1b6.js"><link rel="prefetch" href="/study/assets/js/80.9aa98bc3.js"><link rel="prefetch" href="/study/assets/js/81.c038501e.js"><link rel="prefetch" href="/study/assets/js/82.c8d7a3f2.js"><link rel="prefetch" href="/study/assets/js/83.c1ea50cb.js"><link rel="prefetch" href="/study/assets/js/84.f69b9802.js"><link rel="prefetch" href="/study/assets/js/85.c5beb93d.js"><link rel="prefetch" href="/study/assets/js/86.dc2b077c.js"><link rel="prefetch" href="/study/assets/js/87.12dde93d.js"><link rel="prefetch" href="/study/assets/js/88.7a7eaeac.js"><link rel="prefetch" href="/study/assets/js/89.0ddc8fe7.js"><link rel="prefetch" href="/study/assets/js/9.6200976a.js"><link rel="prefetch" href="/study/assets/js/90.fa8cfd4e.js"><link rel="prefetch" href="/study/assets/js/91.8322fa14.js"><link rel="prefetch" href="/study/assets/js/92.a05433be.js"><link rel="prefetch" href="/study/assets/js/93.50f75239.js"><link rel="prefetch" href="/study/assets/js/94.07811a82.js"><link rel="prefetch" href="/study/assets/js/95.bbe609c6.js"><link rel="prefetch" href="/study/assets/js/96.986f49de.js"><link rel="prefetch" href="/study/assets/js/97.0ecee236.js"><link rel="prefetch" href="/study/assets/js/98.4c9fe6a2.js">
+    <link rel="stylesheet" href="/study/assets/css/styles.148bad0c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study/" class="home-link router-link-active"><!----> <span class="site-name">前端知识点总结</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study/zh/standard/Start.html" class="nav-link">快速搭建开发环境</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">杂记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/async.html" class="nav-link">async</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/cssModule.html" class="nav-link">cssModule</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/dom diff.html" class="nav-link">diff算法</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/virtual dom.html" class="nav-link">虚拟dom</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/DvaJs.html" class="nav-link">DvaJS框架</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/ES6.html" class="nav-link">ES6语法</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/Generator.html" class="nav-link">Generator函数</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/git.html" class="nav-link">git</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/JSX.html" class="nav-link">JSX简述</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/mobx.html" class="nav-link">mobx</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/react.html" class="nav-link">react</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/Functional programming.html" class="nav-link">函数式编程</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/location.html" class="nav-link">定位</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/debounceAndThrottling.html" class="nav-link">防抖和节流</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/AboutJS.html" class="nav-link">关于JS</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/JS operating mechanism.html" class="nav-link">JS运行机制</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/mdSyntax.html" class="nav-link">md语法</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/utils.html" class="nav-link">utils</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/vue.html" class="nav-link">vue</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter4.html" class="nav-link">编程基本功</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter5.html" class="nav-link">数学趣题(一)</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter6.html" class="nav-link">数学趣题(二)</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">项目相关</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/standard/Standard.html" class="nav-link">前端规范</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Project.html" class="nav-link">项目流程</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Cooperation.html" class="nav-link">前后端交互</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Compatibility.html" class="nav-link">移动端兼容问题</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Improve.html" class="nav-link">项目优化</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Cache.html" class="nav-link">浏览器缓存</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Spa.html" class="nav-link">单页面应用</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知名公司面试题</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interview/index.html" class="nav-link">面试必看</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/ali.html" class="nav-link">阿里巴巴</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/longhu.html" class="nav-link">龙湖地产</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知识点笔记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interface/Mind.html" class="nav-link">在线思维导图</a></li><li class="dropdown-item"><!----> <a href="/study/zh/vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/study/zh/react/" class="nav-link">React</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miniapp/" class="nav-link">小程序</a></li><li class="dropdown-item"><!----> <a href="/study/zh/webpack/" class="nav-link">Webpack</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/Yuedu.html" class="nav-link">悦读管理后台</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/BlackMarket.html" class="nav-link">BlackMarket</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/TouTiao.html" class="nav-link">TouTiao</a></li></ul></div></div> <a href="https://github.com/jasonandjay/study" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study/zh/standard/Start.html" class="nav-link">快速搭建开发环境</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">杂记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/async.html" class="nav-link">async</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/cssModule.html" class="nav-link">cssModule</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/dom diff.html" class="nav-link">diff算法</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/virtual dom.html" class="nav-link">虚拟dom</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/DvaJs.html" class="nav-link">DvaJS框架</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/ES6.html" class="nav-link">ES6语法</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/Generator.html" class="nav-link">Generator函数</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/git.html" class="nav-link">git</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/JSX.html" class="nav-link">JSX简述</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/mobx.html" class="nav-link">mobx</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/react.html" class="nav-link">react</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/Functional programming.html" class="nav-link">函数式编程</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/location.html" class="nav-link">定位</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/debounceAndThrottling.html" class="nav-link">防抖和节流</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/AboutJS.html" class="nav-link">关于JS</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/JS operating mechanism.html" class="nav-link">JS运行机制</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/mdSyntax.html" class="nav-link">md语法</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/utils.html" class="nav-link">utils</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miscellaneous/vue.html" class="nav-link">vue</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter4.html" class="nav-link">编程基本功</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter5.html" class="nav-link">数学趣题(一)</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter6.html" class="nav-link">数学趣题(二)</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">项目相关</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/standard/Standard.html" class="nav-link">前端规范</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Project.html" class="nav-link">项目流程</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Cooperation.html" class="nav-link">前后端交互</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Compatibility.html" class="nav-link">移动端兼容问题</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Improve.html" class="nav-link">项目优化</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Cache.html" class="nav-link">浏览器缓存</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Spa.html" class="nav-link">单页面应用</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知名公司面试题</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interview/index.html" class="nav-link">面试必看</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/ali.html" class="nav-link">阿里巴巴</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/longhu.html" class="nav-link">龙湖地产</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知识点笔记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interface/Mind.html" class="nav-link">在线思维导图</a></li><li class="dropdown-item"><!----> <a href="/study/zh/vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/study/zh/react/" class="nav-link">React</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miniapp/" class="nav-link">小程序</a></li><li class="dropdown-item"><!----> <a href="/study/zh/webpack/" class="nav-link">Webpack</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/Yuedu.html" class="nav-link">悦读管理后台</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/BlackMarket.html" class="nav-link">BlackMarket</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/TouTiao.html" class="nav-link">TouTiao</a></li></ul></div></div> <a href="https://github.com/jasonandjay/study" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <div class="carbon-ads"></div> <!----> </div> <div class="page"> <div class="content"><h1 id="一张图片"><a href="#一张图片" aria-hidden="true" class="header-anchor">#</a> 一张图片</h1> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token url">![一张图片](https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg)</span>
+</code></pre></div><p><img src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" alt="一张图片"></p> <h1 id="列表-目标"><a href="#列表-目标" aria-hidden="true" class="header-anchor">#</a> 列表 目标</h1> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token list punctuation">-</span> 混
+<span class="token list punctuation">-</span> 吃
+<span class="token list punctuation">-</span> 等
+<span class="token list punctuation">-</span> 死
+</code></pre></div><ul><li>混</li> <li>吃</li> <li>等</li> <li>死</li></ul> <h1 id="表格-期望工资"><a href="#表格-期望工资" aria-hidden="true" class="header-anchor">#</a> 表格 期望工资</h1> <div class="language-markdown extra-class"><pre class="language-markdown"><code>|第一周|第二周|第三周|第四周|
+|-|-|-|-|
+|25K|8K|12K|16K|
+</code></pre></div><table><thead><tr><th>第一周</th> <th>第二周</th> <th>第三周</th> <th>第四周</th></tr></thead> <tbody><tr><td>25K</td> <td>8K</td> <td>12K</td> <td>16K</td></tr></tbody></table> <p>.md即markdown文件的基本常用编写语法,是一种快速标记、快速排版语言，现在很多前段项目中的说明文件readme等都是用.md文件编写的，而且很多企业也在在鼓励使用这种编辑方式，特别作为一个前端从业者更要学会使用这种语言。下面就简单和大家分享一些.md基本语法
+一、基本符号：* - +. &gt;
+基本上所有的markdown标记都是基于这四个符号或组合，需要注意的是，如果以基本符号开头的标记，注意基本符号后有一个用于分割标记符和内容的空格。
+二、标题
+1.前面带#号，后面带文字，分别表示h1-h6,只到h6，而且h1下面会有一条横线</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">#</span> 一级标题</span>
+<span class="token title important"><span class="token punctuation">##</span> 二级标题</span>
+<span class="token title important"><span class="token punctuation">###</span> 三级标题</span>
+<span class="token title important"><span class="token punctuation">####</span> 四级标题</span>
+<span class="token title important"><span class="token punctuation">#####</span> 五级标题</span>
+<span class="token title important"><span class="token punctuation">######</span> 六级标题</span>
+</code></pre></div><p>2.相当于标签闭合</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">#</span> 一级标题 <span class="token punctuation">#</span></span>
+<span class="token title important"><span class="token punctuation">##</span> 二级标题 <span class="token punctuation">##</span></span>
+<span class="token title important"><span class="token punctuation">###</span> 三级标题 <span class="token punctuation">###</span></span>
+<span class="token title important"><span class="token punctuation">####</span> 四级标题 <span class="token punctuation">####</span></span>
+<span class="token title important"><span class="token punctuation">#####</span> 五级标题 <span class="token punctuation">#####</span></span>
+<span class="token title important"><span class="token punctuation">######</span> 六级标题 <span class="token punctuation">#####</span></span>
+</code></pre></div><p>效果如下：</p> <h1 id="一级标题"><a href="#一级标题" aria-hidden="true" class="header-anchor">#</a> 一级标题</h1> <h2 id="二级标题"><a href="#二级标题" aria-hidden="true" class="header-anchor">#</a> 二级标题</h2> <h3 id="三级标题"><a href="#三级标题" aria-hidden="true" class="header-anchor">#</a> 三级标题</h3> <h4 id="四级标题"><a href="#四级标题" aria-hidden="true" class="header-anchor">#</a> 四级标题</h4> <h5 id="五级标题"><a href="#五级标题" aria-hidden="true" class="header-anchor">#</a> 五级标题</h5> <h6 id="六级标题"><a href="#六级标题" aria-hidden="true" class="header-anchor">#</a> 六级标题</h6> <p>三、列表</p> <p>无序列表</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>//形式一
+<span class="token list punctuation">+</span> a
+<span class="token list punctuation">+</span> b
+<span class="token list punctuation">+</span> c
+//形式二
+<span class="token list punctuation">-</span> d
+<span class="token list punctuation">-</span> e
+<span class="token list punctuation">-</span> f
+//形式三
+<span class="token list punctuation">*</span> g
+<span class="token list punctuation">*</span> h
+<span class="token list punctuation">*</span> i
+</code></pre></div><p>以上三种形式，效果其实都是一样的：</p> <ul><li>a</li> <li>b</li> <li>c</li></ul> <ul><li>d</li> <li>e</li> <li>f</li></ul> <ul><li>g</li> <li>h</li> <li>i</li></ul> <p>有序列表</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>//正常形式
+<span class="token list punctuation">1.</span> abc
+<span class="token list punctuation">2.</span> bcd
+<span class="token list punctuation">3.</span> cde
+//错序效果
+<span class="token list punctuation">2.</span> fgh
+<span class="token list punctuation">3.</span> ghi
+<span class="token list punctuation">5.</span> hij
+</code></pre></div><p>效果图：
+//正常形式</p> <ol><li>abc</li> <li>bcd</li> <li>cde</li></ol> <p>//错序效果</p> <ol start="2"><li>fgh</li> <li>ghi</li> <li>hij</li></ol> <p>如图，注意，数字后面的点只能是英文的点，有序列表的序号是根据第一行列表的数字顺序来的，
+错序列表的序号本来是序号是乱的， 但是还是显示 2 3 5</p> <p>嵌套列表</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>//无序列表嵌套
+<span class="token list punctuation">+</span> 123
+<span class="token code keyword">    + abc</span>
+<span class="token code keyword">    + bcd</span>
+<span class="token code keyword">    + cde</span>
+<span class="token list punctuation">+</span> 465
+<span class="token list punctuation">+</span> 789
+//有序列表嵌套
+<span class="token list punctuation">1.</span> abcd
+<span class="token code keyword">    1. abcde</span>
+<span class="token code keyword">    2. abcde</span>
+<span class="token code keyword">    3. abcde</span>
+<span class="token list punctuation">2.</span> bcde
+<span class="token list punctuation">3.</span> cdef
+</code></pre></div><p>效果图：</p> <p>//无序列表嵌套</p> <ul><li>123
+<ul><li>abc</li> <li>bcd</li> <li>cde</li></ul></li> <li>465</li> <li>789
+//有序列表嵌套</li></ul> <ol><li>abcd
+<ol><li>abcde</li> <li>abcde</li> <li>abcde</li></ol></li> <li>bcde</li> <li>cdef</li></ol> <p>列表可以嵌套，使用时在嵌套列表前按 tab 或 空格 来缩进,去控制列表的层数</p> <p>四、引用说明区块
+对某个部分做的内容做一些说明或者引用某某的话等，可以用这个语法。</p> <p>正常形式</p> <blockquote><p>引用内容、说明内容。在语句前面加一个 &gt; ，注意是英文的那个右尖括号，注意空格，引用因为是一个区块，理论上是应该什么内容都可以放，比如说：标题，列表，引用等等。</p></blockquote> <p>效果图：</p> <p>区块.png</p> <p>嵌套区块
+这里我只介绍一下我常用的方法，也是个人认为比较规范的一种方法，就是给区块的下一级区块多加一个右尖括号</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+<span class="token blockquote punctuation">&gt;</span> 一级引用
+<span class="token blockquote punctuation">&gt;&gt;</span> 二级引用
+<span class="token blockquote punctuation">&gt;&gt;&gt;</span> 三级引用
+<span class="token blockquote punctuation">&gt;&gt;&gt;&gt;</span> 四级引用
+<span class="token blockquote punctuation">&gt;&gt;&gt;&gt;&gt;</span> 五级引用
+<span class="token blockquote punctuation">&gt;&gt;&gt;&gt;&gt;&gt;</span> 六级引用
+</code></pre></div><p>效果图：</p> <blockquote><p>一级引用</p> <blockquote><p>二级引用</p> <blockquote><p>三级引用</p> <blockquote><p>四级引用</p> <blockquote><p>五级引用</p> <blockquote><p>六级引用</p></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote> <p>嵌套区块.png</p> <p>五、代码块
+在发布一些技术文章会涉及展示代码的问题，这时候代码块就显得尤为重要。</p> <p>少量代码，单行使用，直接用`包裹起来就行了</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token code keyword">` shaoliangdaima,danhangshiyong `</span>
+</code></pre></div><p>效果图：
+<code>shaoliangdaima,danhangshiyong</code></p> <p>大量代码，需要多行使用，用```包裹起来</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token code keyword">    ```</span>
+<span class="token code keyword">        daliangdaima,xuyaoduohangshiyong</span>
+<span class="token code keyword">        daliangdaima,xuyaoduohangshiyong</span>
+<span class="token code keyword">        daliangdaima,xuyaoduohangshiyong</span>
+<span class="token code keyword">        daliangdaima,xuyaoduohangshiyong</span>
+<span class="token code keyword">        daliangdaima,xuyaoduohangshiyong</span>
+<span class="token code keyword">    ```</span>
+</code></pre></div><p>效果图：</p> <div class="language- extra-class"><pre class="language-text"><code>   daliangdaima,xuyaoduohangshiyong
+   daliangdaima,xuyaoduohangshiyong
+   daliangdaima,xuyaoduohangshiyong
+   daliangdaima,xuyaoduohangshiyong
+   daliangdaima,xuyaoduohangshiyong
+</code></pre></div><p>六、链接</p> <p>行内式
+链接的文字放在[]中，链接地址放在随后的()中，链接也可以带title属性，链接地址后面空一格，然后用引号引起来</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+<span class="token url">[简书](https://www.jianshu.com <span class="token string">&quot;创作你的创作&quot;</span>)</span>,
+是一个创作社区,任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品,互相交流。 
+
+
+参数式
+链接的文字放在[]中，链接地址放在随后的:后，链接地址后面空一格，然后用引号引起来
+
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">简书</span><span class="token punctuation">]</span><span class="token punctuation">:</span> https://www.jianshu.com <span class="token string">&quot;创作你的创作&quot;</span></span>
+[简书]是一个创作社区,任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品,互相交流。
+//参数定义的其他写法
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">简书</span><span class="token punctuation">]</span><span class="token punctuation">:</span> https://www.jianshu.com <span class="token string">'创作你的创作'</span></span>
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">简书</span><span class="token punctuation">]</span><span class="token punctuation">:</span> https://www.jianshu.com <span class="token string">(创作你的创作)</span></span>
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">简书</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token punctuation">&lt;</span>https://www.jianshu.com<span class="token punctuation">&gt;</span> <span class="token string">&quot;创作你的创作&quot;</span></span>
+</code></pre></div><p>以上两种方式其效果图都是一样的，如下：</p> <p><a href="https://www.jianshu.com" title="创作你的创作" target="_blank" rel="noopener noreferrer">简书<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>,
+是一个创作社区,任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品,互相交流。</p> <p>七、图片</p> <p>行内式
+和链接的形式差不多，图片的名字放在[]中，图片地址放在随后的()中，title属性（图片地址后面空一格，然后用引号引起来）,注意的是[]前要加上!</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token url">![my-logo.png](https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 <span class="token string">&quot;my-logo&quot;</span>)</span>
+</code></pre></div><p>参数式
+图片的文字放在[]中，图片地址放在随后的:后，title属性（图片地址后面空一格，然后用引号引起来）,注意引用图片的时候在[]前要加上!</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">my-logo.png</span><span class="token punctuation">]</span><span class="token punctuation">:</span> https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 <span class="token string">&quot;my-logo&quot;</span></span>
+</code></pre></div><div class="language-markdown extra-class"><pre class="language-markdown"><code>![my-logo.png]
+//参数定义的其他写法
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">my-logo.png</span><span class="token punctuation">]</span><span class="token punctuation">:</span> https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 <span class="token string">'my-logo'</span></span>
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">my-logo.png</span><span class="token punctuation">]</span><span class="token punctuation">:</span> https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 <span class="token string">(my-logo)</span></span>
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">my-logo.png</span><span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token punctuation">&lt;</span>https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240<span class="token punctuation">&gt;</span> <span class="token string">&quot;my-logo&quot;</span></span>
+
+</code></pre></div><p>以上两种方式其效果图都是一样的，如下：
+<img src="https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="my-logo.png" title="my-logo"></p> <p>八、分割线
+分割线可以由* - _（星号，减号，底线）这3个符号的至少3个符号表示，注意至少要3个，且不需要连续，有空格也可以</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code><span class="token hr punctuation">---</span>
+<span class="token title important">- - -
+<span class="token punctuation">------</span></span>
+<span class="token hr punctuation">***</span>
+<span class="token hr punctuation">* * *</span>
+<span class="token hr punctuation">******</span>
+<span class="token bold"><span class="token punctuation">__</span>_
+<span class="token italic"><span class="token punctuation">_</span> <span class="token punctuation">_</span></span> <span class="token italic"><span class="token punctuation">_</span>
+<span class="token punctuation">_</span></span>_</span><span class="token italic"><span class="token punctuation">_</span><span class="token punctuation">_</span><span class="token punctuation">_</span></span>_
+</code></pre></div><h2 id="以上代码的效果图均为："><a href="#以上代码的效果图均为：" aria-hidden="true" class="header-anchor">#</a> 以上代码的效果图均为：</h2> <hr> <hr> <hr> <hr> <hr> <hr> <hr> <hr> <p>九、其他</p> <p>强调字体
+一个星号或者是一个下划线包起来，会转换为<em>倾斜，如果是2个，会转换为<strong>加粗</strong></em></p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+<span class="token italic"><span class="token punctuation">*</span>md<span class="token punctuation">*</span></span>    
+<span class="token bold"><span class="token punctuation">**</span>md<span class="token punctuation">**</span></span>
+<span class="token italic"><span class="token punctuation">_</span>md<span class="token punctuation">_</span></span>   
+ <span class="token bold"><span class="token punctuation">__</span>md<span class="token punctuation">__</span></span>
+</code></pre></div><p>效果图：</p> <p><em>md</em><br> <strong>md</strong> <em>md</em><br> <strong>md</strong></p> <p>转义
+基本上和js转义一样,\加需要转义的字符</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+\\
+\*
+\+
+\-
+\`
+\_
+</code></pre></div><p>删除线
+用~~把需要显示删除线的字符包裹起来</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+<span class="token strike"><span class="token punctuation">~~</span>删除<span class="token punctuation">~~</span></span>
+</code></pre></div><p>效果图：
+<s>删除</s></p> <p>十、表格</p> <div class="language-markdown extra-class"><pre class="language-markdown"><code>//例子一
+|123|234|345|
+|:-|:-:|-:|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|abc|bcd|cde|
+//例子二
+|123|234|345|
+|:---|:---:|---:|
+|abc|bcd|cde|
+|abc|bcd|cde|
+|abc|bcd|cde|
+//例子三
+123|234|345
+:-|:-:|-:
+abc|bcd|cde
+abc|bcd|cde
+abc|bcd|cde
+</code></pre></div><p>上面三个例子的效果一样，由此可得：</p> <ol><li>表格的格式不一定要对的非常起，但是为了良好的变成风格，尽量对齐是最好的</li> <li>分割线后面的冒号表示对齐方式，写在左边表示左对齐，右边为右对齐，两边都写表示居中</li></ol> <p>效果图如下：</p> <p>//例子一</p> <table><thead><tr><th style="text-align:left">123</th> <th style="text-align:center">234</th> <th style="text-align:right">345</th></tr></thead> <tbody><tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr> <tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr> <tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr></tbody></table> <p>//例子二</p> <table><thead><tr><th style="text-align:left">123</th> <th style="text-align:center">234</th> <th style="text-align:right">345</th></tr></thead> <tbody><tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr> <tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr> <tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr></tbody></table> <p>//例子三</p> <table><thead><tr><th style="text-align:left">123</th> <th style="text-align:center">234</th> <th style="text-align:right">345</th></tr></thead> <tbody><tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr> <tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr> <tr><td style="text-align:left">abc</td> <td style="text-align:center">bcd</td> <td style="text-align:right">cde</td></tr></tbody></table> <p>这篇文章的编写借鉴了很多前辈的经验，同时鉴赏我自己的总结，跟大家一起分享了。即使遇到了不幸的灾难，已经开始了的事情决不放弃。</p></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/jasonandjay/study/edit/master/src/zh/miscellaneous/md语法.md" target="_blank" rel="noopener noreferrer">帮助我们改进内容</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></div> <!----> <div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></div> <!----></div></div>
+    <script src="/study/assets/js/app.148bad0c.js" defer></script><script src="/study/assets/js/61.71fb1d4d.js" defer></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c3446600de53c605ba4f6c792e47dff9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </body>
+</html>

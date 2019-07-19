@@ -78,6 +78,13 @@ module.exports = {
               { text: "mobx", link: "/zh/miscellaneous/mobx.md" },
               { text: "react", link: "/zh/miscellaneous/react.md" },
               { text: "函数式编程", link: "/zh/miscellaneous/Functional programming.md" },
+              { text: "定位", link: "/zh/miscellaneous/location.md" },
+              { text: "防抖和节流", link: "/zh/miscellaneous/debounceAndThrottling.md" },
+              { text: "关于JS", link: "/zh/miscellaneous/AboutJS.md" },
+              { text: "JS运行机制", link: "/zh/miscellaneous/JS operating mechanism.md" },
+              { text: "md语法", link: "/zh/miscellaneous/mdSyntax.md" },
+              { text: "utils", link: "/zh/miscellaneous/utils.md" },
+              { text: "vue", link: "/zh/miscellaneous/vue.md" },
             ]
           },
           {
