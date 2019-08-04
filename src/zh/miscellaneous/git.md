@@ -1,3 +1,8 @@
+---
+title: git
+sidebar: auto
+sidebarDepth: 2
+---
 # git操作
 git是工作的基础,不会git就无法提交工作
 ## git是什么
@@ -152,11 +157,11 @@ git pull origin 要合并的分支
 git push origin 要合并的分支
 
 第一步：
-至少需要4个分支
+至少需要4个分支(两人开发)
 master
 dev
-ywc
-txb
+aaa
+bbb
 每个人把代码往自己分支提交
 代码差不多了往dev合并
 dev测试完毕往master合  

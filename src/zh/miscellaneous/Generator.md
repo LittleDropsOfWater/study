@@ -1,3 +1,8 @@
+---
+title: Generator
+sidebar: auto
+sidebarDepth: 2
+---
 # Generator
 更强大、更完善的 ES6 异步编程方法
 **异步编程的语法目标,就是怎么让它更像同步编程.**
@@ -214,4 +219,30 @@ function run(func,arr){
   exec();
 }
 run(loadImgSync,arr);
+```
+## 封装简单的执行器
+```js
+//封装generator函数的执行器
+function run(func,arr){
+  //1.获取generator函数迭代器
+  let gen =func(arr);
+  //2.封装执行函数
+  function exec(value){
+    let next=gen.next(value);
+    console.log('next... ',next);
+    //3.获取到每一步的执行结果
+    if(!next.done){
+      //4.获取到每一步yield执行结果,之后继续调用next
+      let value =next.value;
+      if(value.then){
+      value.then(res=>{
+        exec(res);
+      })
+      }else{
+        exec(value);
+      }
+    }
+  }
+  exec();
+}
 ```

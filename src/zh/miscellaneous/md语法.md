@@ -1,3 +1,8 @@
+---
+title: md语法
+sidebar: auto
+sidebarDepth: 2
+---
 # 一张图片
 ```markdown
 ![一张图片](https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg)
@@ -442,5 +447,4 @@ abc|bcd|cde
 
 
 
-
-这篇文章的编写借鉴了很多前辈的经验，同时鉴赏我自己的总结，跟大家一起分享了。即使遇到了不幸的灾难，已经开始了的事情决不放弃。
+转自很多前辈

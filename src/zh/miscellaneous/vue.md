@@ -1,3 +1,8 @@
+---
+title: VUE相关
+sidebar: auto
+sidebarDepth: 3
+---
 # VUE
 vue分2.0和3.0
 vue-cli 分2.0和3.0 
@@ -45,7 +50,9 @@ Runtime+Compiler vs Runtime-only
 	单向数据流,只有数据流向视图，没有视图流向数据
 
 vue实现数据双向绑定主要是采用数据劫持结合发布者-订阅者模式的方式，通过**Object.defineProperty()**来劫持各个属性的**setter，getter**，在数据变动时发布消息给订阅者，触发相应的监听回调。
-具体话其实就是通过Obeject.defineProperty() 中的setter和getter来监听属性变动实现Observer进行数据的监听然后就是通知订阅者，那么订阅者其实就是简单的一个数组，这个数组中的内容就是我们使用了的一个数据的集合，使用了的数据可以通过getter得到，其实就是在调用的时候给数组里面添加一个订阅者这样就是实现了一个Watcher（需要监听的数据的集合），然后在实现一Compile其作用就是解析模板指令，将模板中的变量替换成数据，然后初始化渲染页面视图，并将每个指令对应的节点绑定更新函数，添加监听数据的订阅者，一旦数据有变动，收到通知，更新视图。
+具体话其实就是通过Obeject.defineProperty() 中的setter和getter来监听属性变动实现Observer进行数据的监听然后就是通知订阅者，那么订阅者其实就是简单的一个数组，这个数组中的内容就是我们使用了的一个数据的集合，使用了的数据可以通过getter得到.
+其实就是在调用的时候给数组里面添加一个订阅者这样就是实现了一个Watcher（需要监听的数据的集合），
+然后在实现一Compile其作用就是解析模板指令，将模板中的变量替换成数据，然后初始化渲染页面视图，并将每个指令对应的节点绑定更新函数，添加监听数据的订阅者，一旦数据有变动，收到通知，更新视图。
 其实vue的数据双向绑定就是MVVM作为数据绑定的入口，整合Observer、Compile和Watcher三者，通过Observer来监听自己的model数据变化，通过Compile来解析编译模板指令，最终利用Watcher搭起Observer和Compile之间的通信桥梁，达到数据变化 -> 视图更新；
 
 	视图交互变化(input) -> 数据model变更的双向绑定效果
@@ -66,7 +73,7 @@ value.sync
 	@update:value="(val)=>value=val" :value=value
 实现子组件修改父组件
 
-### 单页面应用路由
+### 两种单页面应用路由的区别和原理
 实现效果:
 - 不刷新地址栏改变URL
 - 更新页面内容

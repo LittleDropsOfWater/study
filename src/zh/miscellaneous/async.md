@@ -1,3 +1,8 @@
+---
+title: async函数的含义和用法
+sidebar: auto
+sidebarDepth: 2
+---
 # 终极解决
 
 http://www.ruanyifeng.com/blog/2015/05/async.html

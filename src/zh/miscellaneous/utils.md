@@ -1,3 +1,8 @@
+---
+title: 随手写的工具函数,还不完善
+sidebar: auto
+sidebarDepth: 2
+---
 ## 格式化日期\数字补零
 ```js
 // 格式化数字

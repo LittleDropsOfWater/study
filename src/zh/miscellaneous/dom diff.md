@@ -1,3 +1,8 @@
+---
+title: react 协调过程
+sidebar: auto
+sidebarDepth: 2
+---
 # 协调
 React 提出了一套 O(n) 的启发式算法：
 

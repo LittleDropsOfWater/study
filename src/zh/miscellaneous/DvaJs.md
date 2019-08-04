@@ -1,4 +1,8 @@
-
+---
+title: dva框架
+sidebar: auto
+sidebarDepth: 2
+---
 dva 首先是一个基于 redux 和 redux-saga 的数据流方案，然后为了简化开发体验，dva 还额外内置了 react-router 和 fetch，所以也可以理解为一个轻量级的应用框架。
 阿里为了更好的使用 react进行的封装,相比create-react-app更加方便
 # 特性

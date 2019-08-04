@@ -66,6 +66,7 @@ module.exports = {
           {
             text: "杂记",
             items: [
+              { text: "md语法", link: "/zh/miscellaneous/mdSyntax.md" },
               { text: "async", link: "/zh/miscellaneous/async.md" },
               { text: "cssModule", link: "/zh/miscellaneous/cssModule.md" },
               { text: "diff算法", link: "/zh/miscellaneous/dom diff.md" },
@@ -82,7 +83,6 @@ module.exports = {
               { text: "防抖和节流", link: "/zh/miscellaneous/debounceAndThrottling.md" },
               { text: "关于JS", link: "/zh/miscellaneous/AboutJS.md" },
               { text: "JS运行机制", link: "/zh/miscellaneous/JS operating mechanism.md" },
-              { text: "md语法", link: "/zh/miscellaneous/mdSyntax.md" },
               { text: "utils", link: "/zh/miscellaneous/utils.md" },
               { text: "vue", link: "/zh/miscellaneous/vue.md" },
             ]

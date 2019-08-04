@@ -1,3 +1,8 @@
+---
+title: react知识点
+sidebar: auto
+sidebarDepth: 2
+---
 #setState
 参数（对象，回调函数）
 回调函数在协调完毕，dom生成后执行。

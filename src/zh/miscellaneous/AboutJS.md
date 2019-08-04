@@ -1,3 +1,8 @@
+---
+title: 关于JS的小知识
+sidebar: auto
+sidebarDepth: 2
+---
 # 什么是JS?
 直译式脚本语言，是一种动态类型、弱类型、基于原型的语言。
 

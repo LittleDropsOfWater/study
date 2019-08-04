@@ -1,3 +1,8 @@
+---
+title: 虚拟dom相关
+sidebar: auto
+sidebarDepth: 2
+---
 virtul DOM 也就是虚拟节点。通过JS的Object对象模拟DOM中的真实节点对象，再通过特定的render方法将其渲染成真实的DOM节点。
 
 合并DOM操作 和计算最小需要操作数

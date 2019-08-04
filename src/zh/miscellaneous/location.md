@@ -1,3 +1,8 @@
+---
+title: 前端开发的定位方法
+sidebar: auto
+sidebarDepth: 2
+---
 # GPS和GPRS
 GPS:定位
 GPRS:通讯

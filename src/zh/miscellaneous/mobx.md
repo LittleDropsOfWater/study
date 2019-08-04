@@ -1,5 +1,10 @@
+---
+title: mobx粗浅接触
+sidebar: auto
+sidebarDepth: 3
+---
 # mobx
-基于装饰器的状态管理库 
+基于装饰器的响应式状态管理库 
 装饰器：高阶函数的语法糖?
 ## 依赖:
 babel-plugin-transform-decorators-legacy 生成依赖

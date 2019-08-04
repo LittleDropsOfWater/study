@@ -1,3 +1,8 @@
+---
+title: 函数式编程
+sidebar: auto
+sidebarDepth: 3
+---
 # 函数式编程
 ## 函子
 

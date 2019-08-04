@@ -1,3 +1,8 @@
+---
+title: 性能优化-防抖与节流
+sidebar: auto
+sidebarDepth: 2
+---
 # 防抖和节流
 减少请求和DOM操作
 

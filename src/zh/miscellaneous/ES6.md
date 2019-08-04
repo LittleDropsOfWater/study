@@ -1,3 +1,8 @@
+---
+title: ES6语法
+sidebar: auto
+sidebarDepth: 3
+---
 #ES6语法回顾
 ##let const 
 和var的区别： 
@@ -70,7 +75,7 @@ await 后面跟Promise对象时，会阻塞直到Promise状态变化。
 		document.body.appendChild(img);
 	}
 ##generator
-
+封装加载器后同样可以实现异步函数的同步化
 ##class 类
 使用new 新建对象
 ###constructor

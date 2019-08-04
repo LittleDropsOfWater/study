@@ -1,3 +1,8 @@
+---
+title: cssModule
+sidebar: auto
+sidebarDepth: 2
+---
 实现css的模块化
 # 如何启动：
 讲css-loader修改为css-loader?modules。
@@ -34,3 +39,8 @@ import styles from "./index.css";
 			color:#f90 !important;
 		}
 	}
+# vue指令
+.xxx /deep/ .xxx{
+
+	
+}

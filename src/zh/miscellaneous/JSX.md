@@ -1,3 +1,8 @@
+---
+title: JSX
+sidebar: auto
+sidebarDepth: 2
+---
 # JSX
 JSX 仅仅只是 React.createElement(component, props, ...children) 函数的语法糖。
 JSX可以生成React"元素".
